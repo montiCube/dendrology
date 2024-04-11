@@ -1,0 +1,33 @@
+
+#nav_tab {
+    cursor: pointer;
+}
+
+#project-nav {
+    position: relative;
+    text-align: center;
+}
+
+#scroll-nav {
+    position: fixed;
+    text-align: center;
+    left: 0px;
+    top: 20px;
+    width: 83px;
+    height: 365px;
+    background-color: #AEB6BF;
+}
+
+#scroll-nav li {
+    margin-bottom:40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}

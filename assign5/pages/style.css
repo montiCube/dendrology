@@ -1,0 +1,138 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0px;
+    background-color: #cbe2d7;
+    align-items: center;
+    list-style-position: inside;
+    list-style-type: circle;
+    scrollbar-gutter: stable both-edges;
+}
+
+header {
+    text-align: center;
+    background-color: #748868;
+    padding: 20px 5px;
+    outline: thick double #5c6d53;
+}
+
+header #title {
+    text-shadow: -1px -1px 0 #385180, 1.5px 1.5px 0 #9fcdff;
+}
+
+header #tagline {
+    text-shadow: -1px -1px 0 #385180, 1px 1px 0 #afcdff;
+    font-size: large;
+}
+
+.left_sidebar {
+    background-color: #a4bedb;
+    position: fixed;
+    left: 0;
+    top: 50px;
+    bottom: 50px;
+}
+
+#nav_tab {
+    cursor: pointer;
+}
+
+#site-nav ul li {
+    font-size: larger;
+}
+
+#scroll-nav {
+    position: fixed;
+    text-align: center;
+    left: 0px;
+    top: 20px;
+    width: 83px;
+    height: 710px;
+    background-color: #99a5b4;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 200px;
+}
+
+#scroll-nav li {
+    margin-bottom:40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+main section {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 86px;
+    background-color: #b4ac96;
+}
+
+.example-block {
+    margin-left: 18px;
+}
+
+a:link {
+    text-decoration: none;
+    text-shadow: -.5px -.5px 0 #385180, .5px .5px 0 #445166;
+    color: #385180;
+}
+
+a:visited {
+    text-decoration: none;
+    text-shadow: -.5px -.5px 0 #385180, .5px .5px 0 #596d8d;
+    color: #350c0c;
+}
+
+a:hover{
+    color: #a06834;
+    text-shadow: -.5px -.5px 0 #385180, .5px .5px 0 #65686e;
+}
+
+a.left_sidebar:hover {
+    color: #ac7746;
+    text-shadow: -.5px -.5px 0 #385180, .5px .5px 0 #bdc4d3;
+
+}
+
+.concept-block img {
+    width: 45%;
+    height: 45%;
+    box-shadow: -.5px -.5px 0 #385180, .5px, .5px 0 #65686e;
+}
+
+.case-study img {
+    width: 50%;
+    height: 50%;
+}
+
+.example-block img {
+    width: 45%;
+    height: 45%;
+}
+
+#hero, #contact {
+    outline: thick double #526b9b;
+}
+
+#learn, #impacts, #cases {
+    outline: thick double #350c0c;
+}
+
+#systems-intro, #why-matters {
+    outline: thick double #022502;
+}
+
+#about-dendrology, #our-approach, #research-areas, #results, #partner {
+    outline: thick double #3f5783;
+}
+
+footer {
+    text-align:right;
+}

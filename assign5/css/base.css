@@ -1,0 +1,19 @@
+body {
+    margin: 0; /* Reset default margins to control the layout */
+
+}
+
+#hero {
+    position: relative; /* Key for layering content within */
+    height: 90vh; /* Makes hero take up most of the screen height */
+    background-image: url('../images/heaven.JPG');
+    background-size: cover; /* Image scales to fill the container */
+}
+
+
+#tagline {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: white; /* Assuming light text against the dark image */
+}
