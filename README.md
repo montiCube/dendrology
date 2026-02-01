@@ -2,6 +2,8 @@
 
 > **Where data meets insight — charting a clearer future**
 
+🔗 **Live Site:** [dendrology.vercel.app](https://dendrology.vercel.app)
+
 Dendrology is an educational web platform focused on weather systems, environmental science, and climate research. Our mission is to unlock hidden patterns in weather and environmental systems, empowering better decisions for a sustainable future.
 
 ---
